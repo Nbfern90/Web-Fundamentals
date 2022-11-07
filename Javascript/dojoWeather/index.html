@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DojoWeather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>DojoWeather</h1>
+      <ul>
+        <li onclick="alert('Loading weather report...')">Burbank</li>
+        <li onclick="alert('Loading weather report...?')">Chicago</li>
+        <li onclick="alert('Loading weather report...')">Dallas</li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-container">
+    <div class="sanJose">
+      <h1>San Jose</h1>
+      <div class="temp-control">
+        <label for="temp" class="temp">show temeperature in</label>
+        <select name="ForC" id="ForC">
+          <option value="Celcius">°C</option>
+          <option value="Fahrenheit">°F</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="week-calender">
+      <div class="day-block">
+        <h2>Today</h2>
+        <img src="/assets/some_rain.png" alt="rain">
+        <h3>some sun</h3>
+        <div class="temps">
+          <p class="highs">24°</p>
+          <p class="lows">18°</p>
+        </div>
+
+      </div>
+      <div class="day-block">
+        <h2>Tomorrow</h2>
+        <img src="/assets/some_sun.png" alt="sun">
+        <h3>some sun</h3>
+        <div class="temps">
+          <p class="highs">27°</p>
+          <p class="lows">19°</p>
+        </div>
+
+      </div>
+      <div class="day-block">
+        <h2>Friday</h2>
+        <img src="/assets/some_clouds.png" alt="cloud">
+        <h3>some sun</h3>
+        <div class="temps">
+          <p class="highs">21°</p>
+          <p class="lows">16°</p>
+        </div>
+
+      </div>
+      <div class="day-block">
+        <h2>Saturday</h2>
+        <img src="/assets/some_sun.png" alt="sun">
+        <h3>some sun</h3>
+        <div class="temps">
+          <p class="highs">26°</p>
+          <p class="lows">21°</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="caution-box">
+      <img src="/assets/cookie.png" alt="Cookie">
+      <div class="caution-text">
+        <h2>Stop! Cookie time</h2>
+        <p>We use cookies(sadly not the edible ones) to personalize content and ads, to provide social media features
+          and to anayse our traffic<a href="#">Read more...</a></p>
+      </div>
+      <button onclick="hide()">I Accept</button>
+    </div>
+  </div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>

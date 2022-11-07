@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Design */
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  width: 635px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Profile Box Design */
+
+.col-1 {
+  display: flex;
+}
+
+.profile-box {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 280px;
+}
+
+.profile-box img {
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+}
+
+.profile-box a {
+  font-size: 24px;
+}
+/* Box Design */
+.box-1 {
+  display: flex;
+  border: 3px solid black;
+  height: 150px;
+  width: 425px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.row-1 h3 {
+  margin-left: 50px;
+}
+
+.btn {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(255, 230, 0);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 350px;
+  height: 100px;
+  padding-left: 35px;
+}
+
+.row-2 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.col-2 {
+  margin-left: 20px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: burlywood;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.col {
+  background-color: plum;
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+
+.col-2 {
+  flex: 2;
+  background-color: plum;
+  padding: 20px;
+  margin: 10px;
+}
+
+.col-3 {
+  flex: 3;
+  background-color: plum;
+  padding: 20px;
+  margin: 10px;
+}

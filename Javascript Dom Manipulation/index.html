@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom Manipulation</title>
+</head>
+
+<body>
+  <p id="count">The Count is </p>
+  <button onclick="add1()">+</button>
+  <button onclick="subtract1()">-</button>
+
+
+  <br><br><br>
+
+  <div class="card-body">
+    <h1 id="jName">Jane Doe</h1>
+
+    <p onclick="changeText()"><a href="#"><img src="icons/gear.png" alt="gear" class="icon-s"> edit
+        profile</a></p>
+  </div>
+
+
+  <label>I would like to eat </label>
+  <select onchange="chooseLunch(this)">
+    <option>Tacos</option>
+    <option>Pasta</option>
+    <option>Sushi</option>
+  </select>
+
+
+  <div class="card">
+    <p>Hello my name is:</p>
+    <h3 id="name-tag">Example</h3>
+  </div>
+
+  <input type="text" value="Example" oninput="setName(this)">
+
+
+</body>
+
+
+
+<script src="/script.js"></script>
+
+
+</html>

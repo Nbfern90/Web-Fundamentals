@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Clicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <h1>Dojonary</h1>
+      <input type="text" name="search-bar" id="search-bar" value="search">
+      <button class="nav-btn" onclick="changeText(this)">Login</button>
+    </nav>
+  </header>
+
+
+  <div class="container">
+    <div class="col-1">
+      <div class="ninja-box">
+        <div class="word-box">
+          <h1>Ninja</h1>
+          <h3>noun</h3>
+          <h4>Plural: <span>ninjas</span></h4>
+          <button class="popular" onclick="alert('You Got Liked Dude')">13 liked</button>
+        </div>
+        <p class="def">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">Ninjutsu</a> </p>
+      </div>
+      <div class="ninja-box-2">
+        <div class="word-box">
+          <h1>Ninja</h1>
+          <h3>noun</h3>
+          <h4>Plural: <span>ninjas</span></h4>
+          <button class="popular">37 liked</button>
+        </div>
+
+        <p class="def">A <a href="#">programer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="you-box">
+        <h2>Dojonary is defined by YOU</h2>
+        <button class="addDef" onclick="hide(this)">Add Definition</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

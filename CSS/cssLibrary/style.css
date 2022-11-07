@@ -1,0 +1,71 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 9rem;
+  height: 2rem;
+  border-color: rgb(4, 211, 211);
+  border-radius: 15px 15px;
+  color: rgb(4, 211, 211);
+  font-weight: bold;
+  margin: 2rem 2rem 1rem 2rem;
+  border: solid 1px;
+  font-size: 16px;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+  display: flex;
+}
+
+.col {
+  background-color: plum;
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Header/Nav Bar*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.nav {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  background-color: rgb(95, 94, 94);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  margin-left: 20px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(121, 187, 209);
+  box-shadow: black 2px 2px;
+}

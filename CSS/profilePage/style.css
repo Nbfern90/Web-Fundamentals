@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto";
+}
+
+/*Header Style*/
+header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 200px;
+  color: white;
+}
+
+.page-links {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding-right: 160px;
+}
+
+li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.nav-btn {
+  color: white;
+  background-color: rgb(121, 187, 209);
+  box-shadow: black 2px 2px;
+  margin-right: 190px;
+  height: 25px;
+  width: 80px;
+}
+
+/*Container-1 Design*/
+
+.container-main {
+  width: 500px;
+  border: 3px solid rgb(187, 187, 187);
+  background-image: linear-gradient(180deg, teal 25%, white 25%);
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.user-circle img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.user-name h1 {
+  margin: 0px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+.location img {
+  height: 20px;
+  width: 15px;
+}
+.location h2 {
+  margin: 10px 0px;
+  padding-left: 20px;
+}
+
+.skills {
+  margin-bottom: 20px;
+}
+.skills p {
+  margin: 0px;
+}
+.edit {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.edit img {
+  height: 20px;
+  width: 20px;
+}
+
+.edit a {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* Container-2 Design*/
+
+.container-2 {
+  display: flex;
+  border: 3px solid rgb(187, 187, 187);
+  flex-direction: column;
+  width: 500px;
+  background-image: linear-gradient(180deg, black 25%, white 25%);
+  padding-left: 25px;
+}
+
+.education {
+  color: white;
+}
+
+.dates {
+  opacity: 50%;
+}
+
+/*Container-3 Design*/
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(187, 187, 187);
+  padding-left: 12px;
+  width: 258px;
+  background-image: linear-gradient(180deg, black 25%, white 25%);
+  margin-top: 110px;
+  margin-bottom: 25px;
+}
+
+.requests {
+  color: white;
+  padding-left: 30px;
+  width: 200px;
+  margin: 0px;
+}
+.number-of-requests {
+  display: flex;
+  align-items: center;
+}
+
+.request-number {
+  height: 25px;
+  width: 25px;
+  background-color: grey;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.connection-requests {
+  font-size: 25px;
+}
+.connection-requests p {
+  padding-right: 40px;
+}
+
+.container3 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.todd,
+.phil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  padding-right: 5px;
+}
+
+/*Container-4 Design*/
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(187, 187, 187);
+  width: 270px;
+  background-image: linear-gradient(180deg, black 15%, white 15%);
+}
+
+.number-of-connected {
+  display: flex;
+  align-items: center;
+}
+.number-of-connections {
+  height: 25px;
+  width: 60px;
+  background-color: grey;
+  border-radius: 50%;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.container4 img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.adrien,
+.anne,
+.alayne,
+.arry {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.adrien {
+  padding-top: 20px;
+}
+.connections p {
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.view {
+  display: flex;
+  font-size: 20px;
+  padding: 10px 0px 12px 12px;
+  border-top: 3px solid rgb(187, 187, 187);
+}
+
+/*Column Placement*/
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.organizer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
